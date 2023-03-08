@@ -16,7 +16,7 @@ console.log("Tolle Sache!");
 // Ändere die Variablen auf folgende Werte
     let a = 3
     let b = a + 3
-    let c = c -3
+    let c = b -3
 
 // gib die neuen Werte der Variablen aus
     console.log(a);
