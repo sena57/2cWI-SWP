@@ -17,3 +17,7 @@ let bananaWeightPerBanana = 0.22;
 
 
 // Gib folgendes aus: Anzahl Bananen/Äpfel pro Kilo, Preis pro Banane/Apfel
+console.log("Anzahl Bananen pro Kilo: " + (1 / bananaWeightPerBanana));
+console.log("Anzahl Äpfel pro Kilo: " + (1 / appleWeightPerApple));
+console.log("Preis pro Banane: " + (bananaPricePerKilo / bananaWeightPerBanana));
+console.log("Preis pro Apfel: " + (applePricePerKilo / appleWeightPerApple));
