@@ -24,3 +24,6 @@ console.log("Preis pro Apfel: " + (applePricePerKilo / appleWeightPerApple));
 
 // Preis von 8 Äpfeln
 console.log("8 Äpfel kosten " + (applePricePerKilo * appleWeightPerApple * 8));
+
+// Preis von 17 Bananen
+console.log("17 Bananen kosten " + (bananaPricePerKilo * bananaWeightPerBanana + 17));
