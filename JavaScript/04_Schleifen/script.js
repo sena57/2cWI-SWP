@@ -19,4 +19,7 @@ for (count = 1234; count>1206 ; count--) {
 }
 
 // Gib Deinen Namen genau 8 mal aus
+for (count = 0; count<8; count++) {
+    console.log(count + " " + "Sena");
+}
 // Zähle von 0 auf 10, dann gib Deinen Namen aus, dann zähle von 10 auf 0
