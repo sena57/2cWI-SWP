@@ -22,4 +22,14 @@ for (count = 1234; count>1206 ; count--) {
 for (count = 0; count<8; count++) {
     console.log(count + " " + "Sena");
 }
+
 // Zähle von 0 auf 10, dann gib Deinen Namen aus, dann zähle von 10 auf 0
+for (count = 0; count<11; count++) {
+    console.log(count + " ");
+}
+
+console.log("Sena")
+
+for (count = 10; count>0; count--) {
+    console.log(count + " ");
+}
