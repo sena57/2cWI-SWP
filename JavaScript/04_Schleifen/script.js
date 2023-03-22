@@ -1,4 +1,8 @@
 // Zähle von 7 bis 45
+for (count = 7; count<45 ; count++) {
+    console.log(count);
+}
+
 // Zähle von 9 bis 99
 // Zähle rückwärts von 10 bis 0
 // Zähle rückwärts von 1234 bis 1207
