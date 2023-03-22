@@ -23,7 +23,11 @@ console.log("Preis pro Banane: " + (bananaPricePerKilo / bananaWeightPerBanana))
 console.log("Preis pro Apfel: " + (applePricePerKilo / appleWeightPerApple));
 
 // Preis von 8 Äpfeln
-console.log("8 Äpfel kosten " + (applePricePerKilo * appleWeightPerApple * 8));
+console.log("8 Äpfel kosten " + (applePricePerKilo / appleWeightPerApple * 8));
 
 // Preis von 17 Bananen
-console.log("17 Bananen kosten " + (bananaPricePerKilo * bananaWeightPerBanana + 17));
+console.log("17 Bananen kosten " + (bananaPricePerKilo / bananaWeightPerBanana * 17));
+
+// Preis von 1 Tonne Äpfel
+let tonOfApple = 1000 / appleWeightPerApple
+console.log("Eine Tonne Äpfel kosten: " + tonOfApple * )
