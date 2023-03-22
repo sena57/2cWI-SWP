@@ -1,6 +1,6 @@
 // Zähle von 7 bis 45
-for (count = 7; count<45 ; count++) {
-    console.log(count);
+for (count = 7; count<46 ; count++) {
+    console.log(count + " ");
 }
 
 // Zähle von 9 bis 99
