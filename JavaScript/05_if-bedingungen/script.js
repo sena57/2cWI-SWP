@@ -8,7 +8,7 @@ let number = 23
 
 // Wenn die Zahl zw. 20 und 50 ist gib aus "Medium"
     if (number<20) {
-        console.log("Medium");
+        
     }
 // Wenn die Zahl größer als 50 ist gib aus "Large"
     if (number>50) {
