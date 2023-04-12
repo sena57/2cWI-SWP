@@ -3,29 +3,6 @@ let random = Math.floor(randomNumber);
 
 console.log(random);
 
-if (randomNumber === 10) {
-    console.log('Ten');
-}
-
-if (random === 9) {
-    console.log('Nine');
-}
-
-if (random === 8) {
-    console.log('Eight');
-}
-
-if (random === 7) {
-    console.log('Seven');
-}
-
-if (random === 6) {
-    console.log('Six');
-}
-
-if (random === 5) {
-    console.log('Five');
-}
 
 switch (random === 10) {
     case 1:
@@ -37,4 +14,22 @@ switch (random === 10) {
         }
     
     case 3:
+        if (random === 8) {
+            console.log('Eight');
+        }
+    
+    case 4:
+        if (random === 7) {
+            console.log('Seven');
+        }
+    
+    case 5:
+        if (random === 6) {
+            console.log('Six');
+        }
+
+    case 6:
+        if (random === 5) {
+            console.log('Five');
+        }
 }
