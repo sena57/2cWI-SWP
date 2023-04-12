@@ -26,3 +26,15 @@ if (random === 6) {
 if (random === 5) {
     console.log('Five');
 }
+
+switch (random === 10) {
+    case 1:
+        console.log("Ten");
+    
+    case 2:
+        if (random === 9) {
+            console.log('Nine');
+        }
+    
+    case 3:
+}
