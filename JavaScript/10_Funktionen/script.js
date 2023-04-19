@@ -5,21 +5,29 @@ function add(a,b) {
     return a + b;
 }
 
-let ergebnis1 = add(a,b);
-console.log(ergebnis1);
+let ergebnisAdd = add(a,b);
+console.log(ergebnisAdd);
 
 
 function subtract(a,b){
     return a - b;
 }
 
-let ergebnis2 = subtract(a,b);
-console.log(ergebnis2);
+let ergebnisSubtract = subtract(a,b);
+console.log(ergebnisSubtract);
 
 
 function multiply(a,b) {
     return a * b;
 }
 
-let ergebnis3 = multiply(a,b);
-console.log(ergebnis3);
+let ergebnisMultiply = multiply(a,b);
+console.log(ergebnisMultiply);
+
+
+function supercalculation (a,b) {
+    return (a+b) / (2*a);
+}
+
+let ergebnisSupercalculation = supercalculation(a,b);
+console.log(ergebnisSupercalculation);
