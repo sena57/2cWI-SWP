@@ -11,6 +11,6 @@ for (let i=0; i<array.length; i++) {
 //b
 let summe = "";
 for (let i2=0; i>array.length;i2++) {
-    summe += array[i];
+    summe += array[i+i2];
 }
 console.log(summe);
