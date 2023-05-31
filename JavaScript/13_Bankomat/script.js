@@ -14,7 +14,10 @@ const readLineAsync = () => {
   });
 };
 
+let isGameRunning = true;
+let balance = "";
 
+while (isGameRunning) {
 console.log("Wählen Sie die Gewünschte Funktion aus: ");
 const selection = [1 + '. Einzahlen', 2 + '. Abheben', 3 + '. Kontostand', 4 +'. Ende'];
 
@@ -24,7 +27,7 @@ const selection = [1 + '. Einzahlen', 2 + '. Abheben', 3 + '. Kontostand', 4 +'.
 
     let input = await readLineAsync();
 
-    let balance = 0
+    
 
     switch (input) {
         case "1":
@@ -46,6 +49,8 @@ const selection = [1 + '. Einzahlen', 2 + '. Abheben', 3 + '. Kontostand', 4 +'.
             break;
         
         case "4":
-            finished = true;
-            console.log("Machine wurde beendet!");
+            isGameRunning = false;
+            console.log("Maschine wurde beendet!");
+            readline.close();
     }
+  }
